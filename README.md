@@ -46,3 +46,15 @@ quando há um push ou Pull Request.
 
 Demonstrar código-fonte, documentação, controle de versão,
 testes automatizados e integração contínua.
+
+## Testes automatizados
+
+Os testes são executados com o módulo nativo `node:test`.
+
+Para executar os testes localmente:
+
+```bash
+node --test tests/calculadora.test.js
+```
+
+O GitHub Actions executa os testes automaticamente em cada `push` e Pull Request.
